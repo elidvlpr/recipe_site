@@ -80,9 +80,9 @@ $page = isset($_GET['page']) ? $_GET['page'] : 'home';
                     <div class="dropdown">
                     <a class="btn btn-secondary bg-transparent  text-light border-0" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Hi, <?php echo $_SESSION['fullname'] ?></a>
                     <ul class="dropdown-menu">
-                        <li>
+                        <!-- <li>
                             <a class="dropdown-item" href="./?page=posts">My Posts</a>
-                        </li>
+                        </li> -->
                         <li>
                             <a class="dropdown-item" href="./?page=manage_account">Manage Account</a>
                         </li>

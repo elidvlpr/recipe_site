@@ -26,7 +26,7 @@
             </thead>
             <tbody>
                 <?php 
-                $sql = "SELECT * FROM `admin_list` where admin_id != 1 order by `fullname` asc";
+                $sql = "SELECT * FROM `admin_list` order by `fullname` asc";
                 $qry = $conn->query($sql);
                 $i = 1;
                     while($row = $qry->fetchArray()):

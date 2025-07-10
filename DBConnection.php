@@ -74,8 +74,8 @@ Class DBConnection extends SQLite3{
         // END
         // ");
 
-        $this->exec("INSERT or IGNORE INTO `admin_list` VALUES (1,'Administrator','admin',md5('admin123'),1,1, CURRENT_TIMESTAMP)");
-        $this->exec("INSERT or IGNORE INTO `user_list` VALUES (1,'Try My Recipe Mgt','mgt',md5('mgt123'),1, CURRENT_TIMESTAMP)");
+        // $this->exec("INSERT or IGNORE INTO `admin_list` VALUES (1,'Administrator','admin',md5('admin123'),1,1, CURRENT_TIMESTAMP)");
+        // $this->exec("INSERT or IGNORE INTO `user_list` VALUES (1,'Try My Recipe Mgt','mgt',md5('mgt123'),1, CURRENT_TIMESTAMP)");
 
     }
     function __destruct(){
